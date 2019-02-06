@@ -107,9 +107,9 @@ else
 				\ [s:mono4, s:mono1, s:c_mono4, s:c_mono1],
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 	let s:p.tabline.left = [
-				\ [s:mono0, s:green, s:c_mono4, s:c_mono1]]
+				\ [s:mono4, s:mono0, s:c_mono4, s:c_mono1]]
 	let s:p.tabline.tabsel = [
-				\ [s:mono5, s:mono0, s:c_mono5, s:c_mono0]]
+				\ [s:mono0, s:green, s:c_mono5, s:c_mono0]]
 endif
 
 
