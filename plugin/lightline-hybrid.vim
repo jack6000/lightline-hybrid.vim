@@ -63,8 +63,8 @@ else
 				\ [s:mono0, s:green, s:c_mono0, s:c_green],
 				\ [s:mono5, s:mono3, s:c_mono5, s:c_mono3]]
 	let s:p.normal.right = [
-				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4],
-				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
+				\ [s:mono0, s:green, s:c_mono0, s:c_mono4],
+				\ [s:mono0, s:green, s:c_mono0, s:c_mono4]]
 endif
 
 let s:p.normal.error = [
@@ -102,12 +102,12 @@ if s:style == 'plain'
 				\ [s:mono5, s:mono0, s:c_mono5, s:c_mono0]]
 else
 	let s:p.tabline.middle = [
-				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
+				\ [s:mono0, s:mono0, s:c_mono0, s:c_mono4]]
 	let s:p.tabline.right = [
 				\ [s:mono4, s:mono1, s:c_mono4, s:c_mono1],
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 	let s:p.tabline.left = [
-				\ [s:mono4, s:mono1, s:c_mono4, s:c_mono1]]
+				\ [s:mono0, s:green, s:c_mono4, s:c_mono1]]
 	let s:p.tabline.tabsel = [
 				\ [s:mono5, s:mono0, s:c_mono5, s:c_mono0]]
 endif
